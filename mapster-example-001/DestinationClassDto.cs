@@ -13,5 +13,10 @@ public sealed class DestinationClassDto
     /// </summary>
     /// <remarks>Will attempt to map from source guid as a guid (SourceClassDto.Source_002_Guid_As_Guid / source type System.Guid)</remarks>
     public string Destination_002_Guid_As_String { get; init; } = default!;
+
+    public Guid Common_003_Guid_As_Guid { get; init; } = default!;
+
+    public CommonDto Common_DTO { get; init; } = default!;
+
 }
 
